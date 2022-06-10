@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,12 @@
     <link rel="stylesheet" href="style.css">
     <title>Login</title>
 </head>
+
 <body>
     <div class="main-login">
         <div class="left-login">
             <h1>Faça login<br>e venha fazer parte do nosso time</h1>
-            <img src="" class="left-img" alt="imagem tela de loguin">
+            <img src="astronaut.svg" class="left-img" alt="imagem tela de loguin">
         </div>
         <div class="right-login">
             <div class="card-login">
@@ -19,16 +21,23 @@
                 <div class="textfield">
                     <label for="usuario">Usuário</label>
                     <input type="text" name="usuario" placeholder="Usuário">
-                    <label for="senha">Senha</label>
-                    <input type="password" name="password" placeholder="Digite sua senha">
+                    <div class="textfield">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="password" placeholder="Digite sua senha">
+                    </div>
                 </div>
                 <div class="login-recover">
-                    <a href="">Cadastre-se</a>
-                    <a href="">Recuperar Senha</a>
+                    <div>
+                        <a href="">Cadastre-se</a>
+                    </div>
+                    <div>
+                        <a href="">Recuperar Senha</a>
+                    </div>
                 </div>
-                <input type="button" value="login">
+                <button class="btn-login">LOGIN</button>
             </div>
         </div>
     </div>
 </body>
+
 </html>
